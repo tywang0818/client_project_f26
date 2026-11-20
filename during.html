@@ -4,35 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>During Your Experience | UMSI</title>
-  <style>
-    table th,
-    table td {
-      text-align: center;
-    }
-
-    table caption {
-      font-size: 1.5rem;
-      font-weight: bold;
-      text-align: center;
-    }
-  </style>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    <a href="#main">Skip to Main Content</a>
+    <a class="skip" href="#main">Skip to Main Content</a>
     <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="University of Michigan School of Information">
     <nav aria-label="Main navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="prep.html">Preparing for Your Experience</a></li>
         <li><a href="starting.html">Starting Your Experience</a></li>
-        <li><a href="during.html" aria-current="page">During Your Experience</a></li>
+        <li><a href="during.html" class="active" aria-current="page">During Your Experience</a></li>
       </ul>
     </nav>
   </header>
 
-  <main id="main">
-    <h1>During the Experience</h1>
+  <main id="main" tabindex="0">
+    <h1>During Your Experience</h1>
     <img src="images/During01.jpg" width="1200" alt="Students collaborate around a table using laptops and project materials">
     <p>Master the art of adaptive project management, human-centered fieldwork, and constructive feedback as you execute your project in real time.</p>
 
@@ -56,6 +46,7 @@
 
     <section aria-labelledby="during-resources-heading">
       <h2 id="during-resources-heading">Featured Active-Project Resources</h2>
+      <div class="table-scroll" tabindex="0">
       <table>
         <caption>Featured Resources and Handouts</caption>
         <thead>
@@ -103,12 +94,14 @@
           </tr>
         </tbody>
       </table>
+      </div>
     </section>
     <nav aria-label="Experience stages"><p><a href="starting.html">Previous: Starting Your Experience</a></p></nav>
   </main>
 
   <footer>
     <p>University of Michigan School of Information</p>
+    <p><a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office</a></p>
     <address><a href="mailto:umsi.engagement@umich.edu">Email the Engaged Learning Office</a></address>
     <p>&copy; 2026 Regents of the University of Michigan</p>
   </footer>

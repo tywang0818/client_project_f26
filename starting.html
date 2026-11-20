@@ -4,22 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Starting Your Experience | UMSI</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    <a href="#main">Skip to Main Content</a>
+    <a class="skip" href="#main">Skip to Main Content</a>
     <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="University of Michigan School of Information">
     <nav aria-label="Main navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="prep.html">Preparing for Your Experience</a></li>
-        <li><a href="starting.html" aria-current="page">Starting Your Experience</a></li>
+        <li><a href="starting.html" class="active" aria-current="page">Starting Your Experience</a></li>
         <li><a href="during.html">During Your Experience</a></li>
       </ul>
     </nav>
   </header>
 
-  <main id="main">
+  <main id="main" tabindex="0">
     <h1>Starting Your Experience</h1>
     <img src="images/Start01.jpg" width="1200" alt="An instructor speaks to students in a classroom">
     <section aria-labelledby="phase-two-heading">
@@ -60,6 +62,7 @@
 
   <footer>
     <p>University of Michigan School of Information</p>
+    <p><a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office</a></p>
     <address><a href="mailto:umsi.engagement@umich.edu">Email the Engaged Learning Office</a></address>
     <p>&copy; 2026 Regents of the University of Michigan</p>
   </footer>

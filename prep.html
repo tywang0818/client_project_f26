@@ -4,22 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Preparing for Your Experience | UMSI</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    <a href="#main">Skip to Main Content</a>
+    <a class="skip" href="#main">Skip to Main Content</a>
     <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="University of Michigan School of Information">
     <nav aria-label="Main navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="prep.html" aria-current="page">Preparing for Your Experience</a></li>
+        <li><a href="prep.html" class="active" aria-current="page">Preparing for Your Experience</a></li>
         <li><a href="starting.html">Starting Your Experience</a></li>
         <li><a href="during.html">During Your Experience</a></li>
       </ul>
     </nav>
   </header>
 
-  <main id="main">
+  <main id="main" tabindex="0">
     <h1>Preparing for Your Experience</h1>
     <img src="images/Prepare01.jpg" height="800" alt="A student walks across the University of Michigan campus on a snowy day">
     <section aria-labelledby="phase-one-heading">
@@ -43,7 +45,7 @@
 
     <section aria-labelledby="resources-heading">
       <h2 id="resources-heading">Featured Resources &amp; Handouts</h2>
-      <ul>
+      <ul class="content-grid">
         <li><a href="https://sites.lsa.umich.edu/equitable-teaching/social-identity-snapshot/"><strong>Social Identity Snapshot</strong></a>: Diagnostic tool to reflect on self-awareness and positionality before entering community contexts.</li>
         <li><a href="https://docs.google.com/document/d/1Qt9YeStVwDHjwJhOLAz42JSNQR2lFMurdUtxtdrGkuc/edit?tab=t.0#heading=h.ch0bvccjkrzn"><strong>&quot;Check Yourself&quot; Community Engagement Checklist</strong></a>: Quick audit for personal assumptions and ethical readiness.</li>
         <li><a href="https://drive.google.com/file/d/1zc1RNlrDxV51-muOERdDTnINQcquJpOA/view?usp=sharing"><strong>IAP2 Spectrum of Public Participation</strong></a>: Framework for understanding levels of community involvement and decision-making power.</li>
@@ -58,6 +60,7 @@
 
   <footer>
     <p>University of Michigan School of Information</p>
+    <p><a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office</a></p>
     <address><a href="mailto:umsi.engagement@umich.edu">Email the Engaged Learning Office</a></address>
     <p>&copy; 2026 Regents of the University of Michigan</p>
   </footer>
